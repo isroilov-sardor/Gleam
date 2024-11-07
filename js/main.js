@@ -1,7 +1,7 @@
 window.addEventListener("load", function () {
     setTimeout(function () {
         document.querySelector(".loader").classList.add("hidden");
-    }, 2000);
+    }, 0);
 });
 
 const button = document.querySelector("#button-log");
