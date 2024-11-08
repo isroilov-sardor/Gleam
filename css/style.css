@@ -309,12 +309,13 @@ body {
 #image {
     cursor: pointer;
     transition: 0.5s all;
+    filter: drop-shadow(2px 3px 4px red);
 }
 
-#image:hover {
+/* #image:hover {
     filter: drop-shadow(2px 3px 4px black);
-}
+} */
 
 #image:active {
-    filter: drop-shadow(2px 3px 4px #644EEF);
+    filter: drop-shadow(2px 3px 4px green);
 }
