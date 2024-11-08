@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body { */
+/* font-family: 'Poppins';
+    height: 100vh;
+    background: linear-gradient(85deg, #624CEE, rgb(62, 62, 166), blue)
+} */
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+[data-theme="dark"] {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+body {
+    color: #373737;
+    background-color: white;
+}
+
+.dark-mode {
+    color: white;
+    background-color: #373737;
+}
