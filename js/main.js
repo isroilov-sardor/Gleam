@@ -9,6 +9,7 @@ const type1 = document.querySelector("#user-info");
 const type2 = document.querySelector("#password-info");
 const authButton = document.querySelector(".first-authitication");
 const authButton2 = document.querySelector(".second-authitication");
+const image = document.querySelector("#image");
 
 authButton &&
     authButton.addEventListener("click", (event) => {
@@ -49,4 +50,14 @@ button &&
         }
         type1.value = "";
         type2.value = "";
+    });
+
+image &&
+    image.addEventListener("click", (event) => {
+        event.preventDefault();
+        if (type2.getAttribute("type") === "password") {
+            type2.setAttribute("type", "text");
+        } else {
+            type2.setAttribute("type", "password");
+        }
     });
